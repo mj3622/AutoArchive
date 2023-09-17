@@ -5,6 +5,7 @@ from src import control
 
 # 进入子工作区域，即指名手配、特别依赖、学园交流会
 def enterSubWorkPage(number):
+    control.enterWorkPage()
     control.clickMouse(1100, 640 + 125 * (number - 1))
     time.sleep(2)
 
@@ -29,7 +30,7 @@ def getAcademyMaterial(number, cnt):
 
     # 返回到选择区域的界面
     control.clickESC()
-    time.sleep(0.5)
+    time.sleep(2)
     control.clickESC()
     time.sleep(1.5)
 
@@ -48,6 +49,6 @@ def getWeaponMaterial(number, cnt):
 
     # 返回到选择区域的界面
     control.clickESC()
-    time.sleep(1.0)
+    time.sleep(2)
     control.clickESC()
     time.sleep(1.5)

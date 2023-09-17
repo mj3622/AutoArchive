@@ -3,6 +3,7 @@ import time
 from src import control
 
 
+# 进入商店
 def enterShop():
     control.backMainPage()
 
@@ -10,7 +11,7 @@ def enterShop():
     control.clickMouse(1190, 980)
 
     # 等待加载
-    time.sleep(2)
+    time.sleep(3)
 
 
 # 购买经验书
@@ -122,4 +123,4 @@ def buyAP(num):
         control.clickMouse(1760, 1000)
         time.sleep(0.5)
         control.clickMouse(1150, 730)
-        buyAP(num-1)
+        buyAP(num - 1)

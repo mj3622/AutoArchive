@@ -15,15 +15,22 @@ def receiveMissionReward():
 
     # 领取任务奖励（一键领取）
     clickMouse(1720, 1010)
-    time.sleep(1.5)
+    time.sleep(2)
+    clickMouse(1720, 1010)
+
+    time.sleep(2)
+
+    # 领取一次领取完后出现的第二次奖励
+    clickMouse(1720, 1010)
+    time.sleep(2)
     clickMouse(1720, 1010)
 
     # 缓冲时间
-    time.sleep(1)
+    time.sleep(2)
 
     # 领取20石头
     clickMouse(1450, 1000)
-    time.sleep(1)
+    time.sleep(2)
     clickMouse(1450, 1000)
 
     backMainPage()

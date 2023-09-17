@@ -125,4 +125,4 @@ def sweepMission(cnt):
         clickMouse(208, 566)
         time.sleep(0.1)
 
-    time.sleep(1)
+    time.sleep(2)
